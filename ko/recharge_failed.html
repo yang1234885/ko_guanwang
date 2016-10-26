@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>斯达克官网</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no, email=no">
+
+<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<div class="subpage">
+	<div class="header">
+		<div class="wrapper">
+			<h1><a href="../index.html" class="logo"><img src="images/logo.png" alt="KO门" /></a></h1>
+			<ul class="nav clearfix">
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="guide.html">指南</a></li>
+				<li><a href="event.html">活动</a></li>
+				<li><a href="javascript:;">周边</a></li>
+				<li><a href="contact.html">联络</a></li>
+				<li class="on"><a href="login.html">充值</a></li>
+			</ul>
+			<a href="javascript:;" class="btn-menu"></a>			
+		</div>
+	</div>	
+	<div class="wrapper">		
+		<div class="main clearfix">
+			<div class="submain">
+				<div class="sub-head">
+				</div>
+				<div class="sub-con">
+					<div class="recharge failed">
+						<h4>充值失败</h4>						
+						<div class="info">
+							<p>充值失败，请重新充值</p>
+						</div>
+						<a href="recharge.html" class="btn">重新支付</a>
+						<p>充值遇到问题？请联系微信公众号在线客服：</p>
+						<div class="wx_qrcode">
+							<img src="images/wx_qrcode.jpg" alt="微信公众号" />
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+			
+	</div>		
+</div>
+
+
+<div class="footer">
+	<div class="wrapper">
+		<ul class="clearfix">
+			<li>
+				<a href="https://www.pgyer.com/sidake">
+					<i class="i1"></i>
+					应用下载<br />应用最新版本下载
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="i2"></i>
+					官方微信<br />收听官方微信，获得更多福利
+					<span class="qrcode"><img src="images/wx_qrcode.jpg" alt="微信公众号" /></span>
+				</a>
+			</li>
+			<li>
+				<a href="tel:0591-1854854">
+					<i class="i3"></i>
+					联系客服<br />官方唯一客服电话 0591-1854854
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="copyright">
+		<p>福建斯达克信息科技有限公司版权所有<br /><label>地址：福建省福州市鼓楼区六一中路28号佳盛广场908</label> <label>联系电话：0591 8735 8836</label></p>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+$(function() {
+	$(".btn-menu").click(function(){
+		$(this).toggleClass('btn-active');
+		$(this).siblings('ul').toggle();
+	})
+});
+</script>
+</body>
+</html>
